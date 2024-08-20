@@ -3,7 +3,7 @@
 
 ## Overview
 
-`push_swap` is a project from the 42 curriculum that involves sorting a stack of integers using a limited set of operations. The goal is to write a program that finds the shortest possible sequence of operations to sort the stack.
+`push_swap` is a project from the 42 curriculum that involves sorting a stack of integers using a limited set of operations. The goal is to write a program that finds the shortest possible sequence of operations to sort the stack, and we use Turk algorithm to do that.
 
 ## Project Structure
 
