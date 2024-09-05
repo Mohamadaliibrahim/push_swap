@@ -84,3 +84,7 @@ make re
 ## Testing
 
 You can test the program by feeding it various lists of integers. It is recommended to compare the output against a known correct implementation to ensure accuracy and efficiency.
+
+### Author
+
+This project was developed by **mohamibr** as part of the 42 school curriculum.
