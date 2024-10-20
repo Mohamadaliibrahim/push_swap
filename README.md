@@ -3,7 +3,7 @@
 
 ## Overview
 
-`push_swap` is a project from the 42 curriculum that involves sorting a stack of integers using a limited set of operations. The goal is to write a program that finds the shortest possible sequence of operations to sort the stack, and we use Turk algorithm to do that.
+`push_swap` is a project from the 42 curriculum that involves sorting a stack of integers using a limited set of operations. The goal is to write a program that finds the shortest possible sequence of operations to sort the stack, and we use the Turkish algorithm to do that.
 
 ## How It Works
 
@@ -23,9 +23,23 @@ The program receives a list of integers as arguments, initializes two stacks (A 
 
 The goal is to use these operations to sort the integers in stack A with the fewest possible moves.
 
-## Usage
+## Installation
 
-### Compilation
+To download the project, use the following steps to clone the repository via SSH.
+
+### Cloning the Repository
+
+```bash
+git clone git@github.com:Mohamadaliibrahim/push_swap.git
+```
+Enter the file
+```bash
+cd push_swap/push_swap
+```
+
+This will download all the necessary files for the project into a folder named `push_swap`.
+
+## Compilation
 
 To compile the project, run the following command in your terminal:
 
@@ -35,7 +49,7 @@ make
 
 This will generate an executable file named `push_swap`.
 
-### Running the Program
+## Usage
 
 You can run the program with a list of integers as follows:
 
@@ -43,7 +57,7 @@ You can run the program with a list of integers as follows:
 ./push_swap <list_of_integers>
 ```
 
-Example:
+### Example:
 
 ```bash
 ./push_swap 3 2 5 1 4
@@ -61,7 +75,7 @@ The program will handle the following errors:
 
 If an error is detected, the program will print `Error` and exit.
 
-### Cleaning Up
+## Cleaning Up
 
 To remove the compiled files, you can use:
 
@@ -87,4 +101,4 @@ You can test the program by feeding it various lists of integers. It is recommen
 
 ### Author
 
-This project was developed by **mohamibr** as part of the 42 school curriculum.
+This project was developed by **mohamibr** as part of the 42 School curriculum.
