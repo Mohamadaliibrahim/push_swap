@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -g
 
-SRC =	check.c check1.c ft_split.c ft_strlcpy.c ft_strlen.c\
-		ft_substr.c utils.c utils1.c push_swap.c reverse_rotate.c\
-		rotate.c swap.c push.c ft_strdup.c a_to_b.c b_to_a.c\
-		else_it.c utils2.c cheapest_one.c
+SRC =	srcs/check.c srcs/check1.c srcs/ft_split.c srcs/ft_strlcpy.c srcs/ft_strlen.c \
+		srcs/ft_substr.c srcs/utils.c srcs/utils1.c srcs/push_swap.c srcs/reverse_rotate.c \
+		srcs/rotate.c srcs/swap.c srcs/push.c srcs/ft_strdup.c srcs/a_to_b.c srcs/b_to_a.c \
+		srcs/else_it.c srcs/utils2.c srcs/cheapest_one.c
 
 OBJ = $(SRC:.c=.o)
 NAME = push_swap
